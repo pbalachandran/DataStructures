@@ -53,6 +53,7 @@ public class TrieTreeBuilderTest {
         assertFalse(trieTreeBuilder.searchPrefix("AT"));
         assertTrue(trieTreeBuilder.searchPrefix("BL"));
         assertFalse(trieTreeBuilder.searchPrefix("UE"));
+        assertFalse(trieTreeBuilder.searchPrefix("BATIS"));
         assertTrue(trieTreeBuilder.searchPrefix("GO"));
     }
 
@@ -62,6 +63,7 @@ public class TrieTreeBuilderTest {
         assertTrue(trieTreeBuilder.searchWord("CORK"));
         assertTrue(trieTreeBuilder.searchWord("BATSMAN"));
         assertFalse(trieTreeBuilder.searchWord("BATT"));
+        assertFalse(trieTreeBuilder.searchWord("BA"));
         assertFalse(trieTreeBuilder.searchWord("COATED"));
         assertTrue(trieTreeBuilder.searchWord("GOAT"));
         assertTrue(trieTreeBuilder.searchWord("GHOST"));

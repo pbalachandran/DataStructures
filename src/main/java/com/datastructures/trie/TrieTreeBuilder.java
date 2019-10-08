@@ -22,49 +22,35 @@ public class TrieTreeBuilder {
     }
 
     private TrieNode buildTrieTreeNode(Character c, TrieNode current) {
-        TrieNode child = null;
-        boolean done = false;
-        while (!done) {
-            Set<Character> keySet = current.getChildren().keySet();
-            if (!current.getChildren().keySet().isEmpty()) {
-                if (keySet.contains(c)) {
-                    child = current.getChildren().get(c);
-                } else {
-                    child = new TrieNode(String.valueOf(c));
-                    current.getChildren().put(c, child);
-                }
-                done = true;
-            } else {
-                child = new TrieNode(String.valueOf(c));
-                current.getChildren().put(c, child);
-                done = true;
-            }
+        TrieNode child;
+        Set<Character> keySet = current.getChildren().keySet();
+        if (!keySet.isEmpty() && keySet.contains(c)) {
+            child = current.getChildren().get(c);
+        } else {
+            child = new TrieNode(String.valueOf(c));
+            current.getChildren().put(c, child);
         }
         return child;
     }
 
     public boolean searchPrefix(String prefix) {
-        boolean isWordSearch = false;
-        return searchNodes(prefix, 0, isWordSearch, root);
+        return searchNodes(prefix, 0, false, root);
     }
 
     public boolean searchWord(String word) {
-        boolean isWordSearch = true;
-        return searchNodes(word, 0, isWordSearch, root);
+        return searchNodes(word, 0, true, root);
     }
 
     public boolean deletePrefix(String prefix) {
         if (searchPrefix(prefix)) {
-            boolean isDeletePrefix = true;
-            return deleteNodesAndAdjust(prefix, isDeletePrefix);
+            return deleteNodesAndAdjust(prefix, true);
         }
         return false;
     }
 
     public boolean deleteWord(String word) {
         if (searchWord(word)) {
-            boolean isDeletePrefix = false;
-            return deleteNodesAndAdjust(word, isDeletePrefix);
+            return deleteNodesAndAdjust(word, false);
         }
         return false;
     }
@@ -127,28 +113,22 @@ public class TrieTreeBuilder {
 
     private boolean searchNodes(String prefix, int currentCharacterIndex,
                                 boolean isWordSearch, TrieNode current) {
-        boolean isExists;
         if (current.getChildren().keySet().contains(prefix.charAt(currentCharacterIndex))) {
             TrieNode child = current.getChildren().get(prefix.charAt(currentCharacterIndex));
             currentCharacterIndex++;
 
             if (currentCharacterIndex < prefix.length()) {
-                isExists = searchNodes(prefix, currentCharacterIndex, isWordSearch, child);
+                return searchNodes(prefix, currentCharacterIndex, isWordSearch, child);
             } else {
                 if (isWordSearch) {
-                    if (child.isEndOfWord()) {
-                        isExists = true;
-                    } else {
-                        isExists = false;
-                    }
+                    return child.isEndOfWord() ? true : false;
                 } else {
-                    isExists = true;
+                    return true;
                 }
             }
         } else {
-            isExists = false;
+            return false;
         }
-        return isExists;
     }
 
     public int countWords(TrieNode node) {
