@@ -13,7 +13,7 @@ public class BSTBalanced {
     private BSTNode root;
 
     public static void main(String[] args) {
-        Integer[] sortedList = {1, 2, 3, 4, 5, 99, 101, 201, 333, 456, 554, 556, 777, 888, 999, 1001, 1002, 1003, 1004};
+        Integer[] sortedList = {1, 2, 3, 4, 5, 6, 7, 8};
         BSTBalanced bstBalanced = new BSTBalanced();
         boolean isBalanced = bstBalanced.isBalanced(sortedList);
         System.out.println("isBalanced " + isBalanced);

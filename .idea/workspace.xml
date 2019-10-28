@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38cdd5b5-90b2-452d-b658-9c6a4333540f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/datastructures/bst/balanced/BSTBalanced.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/datastructures/bst/balanced/BSTBalanced.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/datastructures/bst/height/BSTHeightCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/datastructures/bst/height/BSTHeightCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/balanced/BSTBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/balanced/BSTBalanced.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/height/BSTHeightCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/height/BSTHeightCalculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -65,8 +60,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/balanced/BSTBalanced.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="555">
-                  <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+                <state relative-caret-position="152">
+                  <caret line="15" column="48" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="48" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -90,8 +85,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/height/BSTHeightCalculator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                <state relative-caret-position="34">
+                  <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -161,7 +156,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572230875359" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572231424749" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -319,7 +314,7 @@
       <workItem from="1570991184051" duration="9797000" />
       <workItem from="1571526211915" duration="8000" />
       <workItem from="1571589937250" duration="15331000" />
-      <workItem from="1572229741778" duration="727000" />
+      <workItem from="1572229741778" duration="1319000" />
     </task>
     <servers />
   </component>
@@ -356,7 +351,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48744000" />
+    <option name="totallyTimeSpent" value="49336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="841" extended-state="0" />
@@ -371,8 +366,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21094793" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2777036" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21094793" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41789052" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -415,9 +410,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/balanced/BSTBalanced.java</url>
-          <line>27</line>
+          <line>24</line>
           <properties />
-          <option name="timeStamp" value="39" />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -665,8 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/height/BSTHeightCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="34">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -675,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/balanced/BSTBalanced.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        <state relative-caret-position="152">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
