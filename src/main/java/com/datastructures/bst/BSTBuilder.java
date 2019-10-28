@@ -2,7 +2,6 @@ package com.datastructures.bst;
 
 public class BSTBuilder {
 
-
     public static BSTNode build(Integer[] nodeValues, int start, int end) {
 
         if (end < start) {

@@ -11,44 +11,48 @@ import java.util.Queue;
 
 public class BSTHeightCalculator {
 
-    private int height = 0;
     private BSTNode root;
-    private BSTBuilder bstBuilder;
 
     public static void main(String[] args) {
         Integer[] sortedList = {1, 2, 3, 4, 5, 67, 99, 101, 201, 333, 456, 554, 556, 777, 888, 999};
         BSTHeightCalculator bstHeightCalculator = new BSTHeightCalculator();
-        bstHeightCalculator.compute(sortedList);
+        int height = bstHeightCalculator.computeHeight(sortedList);
+        System.out.println("Height " + height);
     }
 
-    public void compute(Integer[] sortedList) {
-        root = bstBuilder.build(sortedList, 0, sortedList.length - 1);
+    public int computeHeight(Integer[] sortedList) {
+        root = BSTBuilder.build(sortedList, 0, sortedList.length - 1);
+        return BSTHeightCalculator.computeHeight(root);
+    }
 
-        List<BSTNode> children = null;
+    public static int computeHeight(BSTNode node) {
+        int height = 0;
+
+        List<BSTNode> children = new ArrayList<>();
         Queue<BSTNode> parents = new PriorityQueue<>(1, new BSTNodeComparator());
 
         BSTNode parent;
-        parents.add(root);
+        parents.add(node);
 
         boolean done = false;
         while (!done) {
             if (!parents.isEmpty()) {
                 parent = parents.remove();
-                children = getChildren(parent);
+                children.addAll(BSTHeightCalculator.getChildren(parent));
             } else {
                 if (children.isEmpty()) {
                     done = true;
-                    System.out.println("Height: " + height);
                 } else {
                     height++;
                     parents.addAll(children);
-                    children = null;
+                    children = new ArrayList<>();
                 }
             }
         }
+        return height;
     }
 
-    private List<BSTNode> getChildren(BSTNode node) {
+    private static List<BSTNode> getChildren(BSTNode node) {
         List<BSTNode> list = new ArrayList();
         if (node.getLc() != null) {
             list.add(node.getLc());

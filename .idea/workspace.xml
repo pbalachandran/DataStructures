@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38cdd5b5-90b2-452d-b658-9c6a4333540f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTNodeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/balanced/BSTBalanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/height/BSTHeightCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/datastructures/bst/ascending/BSTBuilderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/datastructures/bst/balanced/BSTBalanced.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/datastructures/bst/balanced/BSTBalanced.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/datastructures/bst/height/BSTHeightCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/datastructures/bst/height/BSTHeightCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/balanced/BSTBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/balanced/BSTBalanced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/height/BSTHeightCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructures/bst/height/BSTHeightCalculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -60,67 +59,17 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.58941346">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/datastructures/bst/ascending/BSTBuilderTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="22" selection-start-column="22" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/balanced/BSTBalanced.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+                <state relative-caret-position="555">
+                  <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/binarytree/BinaryTreeBuilder.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1470">
-                  <caret line="102" column="54" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="54" />
-                  <folding>
-                    <element signature="e#1606#1607#0" expanded="true" />
-                    <element signature="e#1644#1645#0" expanded="true" />
-                    <element signature="e#1697#1698#0" expanded="true" />
-                    <element signature="e#1735#1736#0" expanded="true" />
-                    <element signature="method#hasUnVisitedLeftChild#0;class#BinaryTreeBuilder#0" />
-                    <element signature="method#hasUnvisitedRightChild#0;class#BinaryTreeBuilder#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTNode.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/binarytree/NodeComparator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -129,11 +78,20 @@
       </split-first>
       <split-second>
         <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTBuilder.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/height/BSTHeightCalculator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+                <state relative-caret-position="210">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -168,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/datastructures/bst/BSTBuilderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/datastructures/binarytree_depthlist/BinaryTreeDepthList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/datastructures/bst/ascending/BSTBuilderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/datastructures/BSTBuilderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/datastructures/ascending/BSTBuilderTest.java" />
@@ -182,12 +139,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/datastructures/bst/ascending/BSTBuilderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/datastructures/bst/height/BSTNodeComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTNodeComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/datastructures/bst/height/BSTHeightCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/datastructures/bst/balanced/BSTBalanced.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="841" />
@@ -198,91 +156,12 @@
       <showMembers ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="binarytree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-              <item name="bst" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571659561862" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572230875359" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -439,7 +318,8 @@
       <workItem from="1570546987993" duration="2213000" />
       <workItem from="1570991184051" duration="9797000" />
       <workItem from="1571526211915" duration="8000" />
-      <workItem from="1571589937250" duration="11121000" />
+      <workItem from="1571589937250" duration="15331000" />
+      <workItem from="1572229741778" duration="727000" />
     </task>
     <servers />
   </component>
@@ -476,7 +356,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43807000" />
+    <option name="totallyTimeSpent" value="48744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="841" extended-state="0" />
@@ -491,7 +371,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24032043" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21094793" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2777036" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,6 +413,12 @@
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/balanced/BSTBalanced.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -550,6 +436,11 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>node.getLc()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>target.getName().charAt(0)</expression-string>
         <language-id>JAVA</language-id>
@@ -683,30 +574,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/binarytree_depthlist/BinaryTreeDepthList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/depthlist/BSTDepthListBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/depthlist/BSTNodeComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/binarytree_depthlist/BinaryTreeDepthList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/depthlist/BSTDepthListBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/depthlist/BSTNodeComparator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/binarytree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -720,31 +590,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/depthlist/BSTNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/depthlist/BSTDepthList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/depthlist/BSTNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/depthlist/BSTDepthList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/depthlist/BSTBuilder.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#546#555#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-266">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/depthlist/BSTBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTNodeComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -758,34 +617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/binarytree/NodeComparator.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTNodeComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="4545">
+          <caret line="334" selection-start-line="334" selection-end-line="334" />
         </state>
       </provider>
     </entry>
@@ -804,10 +639,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/binarytree/NodeComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/BSTBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/height/BSTHeightCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -816,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructures/bst/balanced/BSTBalanced.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="555">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
