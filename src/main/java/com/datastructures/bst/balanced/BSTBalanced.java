@@ -8,6 +8,7 @@ import com.datastructures.bst.height.BSTHeightCalculator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
+
 public class BSTBalanced {
 
     private BSTNode root;
@@ -16,7 +17,7 @@ public class BSTBalanced {
         Integer[] sortedList = {1, 2, 3, 4, 5, 6, 7, 8};
         BSTBalanced bstBalanced = new BSTBalanced();
         boolean isBalanced = bstBalanced.isBalanced(sortedList);
-        System.out.println("isBalanced " + isBalanced);
+        System.out.println("isBalancedRecursive " + isBalanced);
     }
 
     public boolean isBalanced(Integer[] sortedList) {
