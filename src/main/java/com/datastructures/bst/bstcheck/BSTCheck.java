@@ -20,6 +20,10 @@ public class BSTCheck {
     }
 
     public boolean isBST(BSTNode node) {
+        if (node == null) {
+            return true;
+        }
+
         if (node.getLc() == null && node.getRc() == null) {
             return true;
         } else {

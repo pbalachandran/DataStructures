@@ -1,12 +1,13 @@
 package com.datastructures.bst;
 
+
 import lombok.Builder;
 import lombok.Data;
 
 @Data
 @Builder
 public class BSTNode implements Comparable<BSTNode> {
-    private int value;
+    private Integer value;
     private BSTNode lc;
     private BSTNode rc;
 
@@ -17,6 +18,6 @@ public class BSTNode implements Comparable<BSTNode> {
 
     @Override
     public int compareTo(BSTNode that) {
-        return Integer.valueOf(this.getValue()).compareTo(Integer.valueOf(that.getValue()));
+        return Integer.valueOf(this.value).compareTo(Integer.valueOf(that.value));
     }
 }
