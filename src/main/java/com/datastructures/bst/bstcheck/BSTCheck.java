@@ -28,11 +28,11 @@ public class BSTCheck {
             return true;
         } else {
             if (node.getLc() != null && node.getRc() == null) {
-                return node.getLc().getValue() <= node.getValue() ? isBST(node.getLc()) : false;
+                return node.getLc().getValue() <= node.getValue() && isBST(node.getLc());
             } else if (node.getLc() == null && node.getRc() != null) {
-                return node.getRc().getValue() > node.getValue() ? isBST(node.getRc()) : false;
+                return node.getRc().getValue() > node.getValue() && isBST(node.getRc());
             } else {
-                return (node.getLc().getValue() <= node.getValue() && node.getRc().getValue() > node.getValue()) ? isBST(node.getLc()) && isBST(node.getRc()) : false;
+                return (node.getLc().getValue() <= node.getValue() && node.getRc().getValue() > node.getValue()) && (isBST(node.getLc()) && isBST(node.getRc()));
             }
         }
     }
